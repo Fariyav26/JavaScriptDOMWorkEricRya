@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <script type = "text/javascript" src = "carsim.js"></script>
+    <title>Car Simulator</title>
+  </head>
+  <body>
+    <h1>Car Simulator</h1>
+    <h2>Car Details</h2>
+    <p>Year</p>
+    <input type = "text" value = "" id="yInput"/>
+    <p>Make</p>
+    <input type ="text" value = "" id="maInput"/>
+    <p>Model</p>
+    <input type= "text" value ="" id="moInput"/>
+    <input type= "button" value = "Get Car" onclick="clickGetCar()"/>
+    <p id="carString">Your car is a</p>
+    <h2>Speed Simulator</h2>
+    <input type="button" value = "Accelerate/Brake" onclick="accelBrake()"/>
+    <input type="button" value="Slippery Road" onclick="runSlipperyRoad()"/>
+  </body>
+</html>
